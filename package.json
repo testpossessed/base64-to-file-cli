@@ -1,5 +1,5 @@
 {
-  "name": "base64-to-file",
+  "name": "save-base64-to-file",
   "version": "1.0.0",
   "description": "NodeJS CLI to convert a base64 string to bytes and save to a file",
   "main": "index.js",
