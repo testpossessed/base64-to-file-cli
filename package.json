@@ -1,0 +1,39 @@
+{
+  "name": "base64-to-file",
+  "version": "1.0.0",
+  "description": "NodeJS CLI to convert a base64 string to bytes and save to a file",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "cbuild": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testpossessed/base64-to-file.git"
+  },
+  "keywords": [
+    "convert",
+    "base64",
+    "file",
+    "image"
+  ],
+  "author": "Mike Hanson",
+  "license": "MIT",
+  "bin": {
+    "base64-to-file": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/testpossessed/base64-to-file/issues"
+  },
+  "homepage": "https://github.com/testpossessed/base64-to-file#readme",
+  "devDependencies": {
+    "@types/node": "^10.1.1",
+    "ts-node": "^6.0.3",
+    "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "commander": "^2.15.1",
+    "is-base64": "0.0.4"
+  }
+}
