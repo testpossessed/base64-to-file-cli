@@ -1,15 +1,15 @@
-# base64-to-file
+# base64-to-file-cli
 NodeJS CLI to convert a Base64 string to bytes and save to a file
 
 ## Installation
 The package is intended to be installed globally under npm so you can use it from anywhere (assuming your path includes npm).  To install it:
 
 ```
-    npm install -g save-base64-to-file
+    npm install -g base64-to-file-cli
 ```
 
 ## Usage
-base64-to-file requires two arguments the data to convert and a file path to write the output to.
+base64-to-file-cli requires two arguments the data to convert and a file path to write the output to.
 
 Running it without any arguments or with the -h or --help option will produce the following output, which tells you pretty much all you need
 
@@ -37,7 +37,7 @@ The following will generate a file in the current directory containing the decod
 As a contractor I recently had to create a version of some AngularJS components that would run in older browsers, specifically IE8 and IE6 (yes apparently some big organisations still use these).  I had to make sure the look and feel was as close as possible, but all of the image assets were embedded in the CSS using data URLS so I needed to extract the images to files to publish with my version of the app.  Google produced some scripts and code, but couldn't find anything that was packaged up to download so I created this utility and published to NPM.  I hope others find it useful.
 
 ## Issues
-If you have any issues or questions please feel free to post them on GitHub at https://github.com/testpossessed/base64-to-file/issues
+If you have any issues or questions please feel free to post them on GitHub at https://github.com/testpossessed/base64-to-file-cli/issues
 
 
 
