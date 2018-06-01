@@ -1,6 +1,6 @@
 {
   "name": "b64-to-file-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NodeJS CLI to convert a base64 string to bytes and save to a file",
   "main": "index.js",
   "scripts": {
