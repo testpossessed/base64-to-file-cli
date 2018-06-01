@@ -34,6 +34,12 @@ The following will generate a file in the current directory containing the decod
     base64-to-file -d "ABCDEFG==" -f "example.txt"
 ```
 
+If you prefer to type less you can use an alias for the command like this
+
+```
+    b642fil -d "ABCDEFG==" -f "example.txt"
+```
+
 ## Why?
 As a contractor I recently had to create a version of some AngularJS components that would run in older browsers, specifically IE8 and IE6 (yes apparently some big organisations still use these).  I had to make sure the look and feel was as close as possible, but all of the image assets were embedded in the CSS using data URLS so I needed to extract the images to files to publish with my version of the app.  Google produced some scripts and code, but couldn't find anything that was packaged up to download so I created this utility and published to NPM.  I hope others find it useful.
 
