@@ -5,9 +5,10 @@ NodeJS CLI to convert a Base64 string to bytes and save to a file
 The package is intended to be installed globally under npm so you can use it from anywhere (assuming your path includes npm).  To install it:
 
 ```
-    npm install -g base64-to-file-cli
+    npm install -g b64-to-file-cli
 ```
 
+NB: Sadly include base64 in the name of a package triggers Spam Detection on publish so had to modify the name some how
 ## Usage
 base64-to-file-cli requires two arguments the data to convert and a file path to write the output to.
 
